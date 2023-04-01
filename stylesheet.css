@@ -1,0 +1,258 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Lucida Grande";
+   
+  
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+ header {
+  height 90px;
+  background-color: rgba(34, 49, 52, 0.9);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  color: white;
+  height: 80px;
+ }
+
+.ni{
+  color: white;
+}
+ .header-logo {
+  font-size: 32px;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 50px;
+  letter-spacing: 3px;
+   
+  
+
+ }
+
+
+
+ .li {
+  float: left;
+  color: white;
+  padding: 30px 20px;
+ }
+
+ .li:hover {
+  color:khaki;
+ }
+  
+
+.top-wrapper {
+  text-align: center;
+  padding: 180px 0 100px 0;
+}
+
+.top-wrapper h1 {
+  font-size: 140px;
+  padding-bottom: 20px;
+}
+ 
+
+.top-wrapper h2 {
+  font-size: 70px;
+  font-weight: lighter;
+  padding-bottom: 20px;
+}
+
+span {
+  color:darkgoldenrod;
+}
+
+.message-wrapper {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 90px 0;
+}
+
+.message-wrapper p {
+  padding-top: 30px;
+}
+
+.lesson-wrapper {
+   
+  padding: 90px 5%;
+}
+
+ .lesson-wrapper h2 {
+  padding-bottom: 30px;
+ }
+
+ .lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+ 
+  text-align: center;
+}
+
+ .lesson {
+  float: left;
+  width: 33.33%;
+ }
+
+ .lesson-icon p {
+  padding-top: 20px;
+}
+  
+ 
+
+
+.clear {
+  clear: left;
+}
+ 
+
+ 
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+
+}
+
+#check {
+  display: none;
+}
+
+
+
+
+.contact-form {
+  padding: 120px 0;
+  background-color:  #f7f7f7;
+  text-align: center;
+  height: 580px;
+}
+
+.contact-form h2 {
+  padding-bottom: 35px;
+}
+
+
+ 
+input, textarea {
+   
+  margin-bottom: 30px;
+  padding: 13px 21px;
+  border-radius: 5px;
+  border: 1px solid #dee7ec;
+  width: 50%;
+   
+}
+
+
+.btn {
+  display:inline-block;
+   padding: 10px 35px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+ 
+
+
+
+.btn:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+
+
+
+
+
+
+footer {
+  height: 280px;
+  background-color: rgba(34, 49, 52, 0.9);
+  color: white;
+
+}
+
+
+.footer-right {
+  font-size: 32px;
+  float: left;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 50px;
+  letter-spacing: 3px;
+}
+  
+.lu {
+  color: white;
+}
+
+.lu:hover {
+  color:beige;
+}
+
+
+.footer-list ul {
+  float: right;
+  margin-top: 20px;
+  margin-right: 40px;
+
+  
+}
+
+.footer-list li {
+   
+padding: 15px;
+   
+
+}
+   
+  
+ 
+   
+   
+   
+ 

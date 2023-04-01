@@ -1,0 +1,33 @@
+@media (max-width: 670px) {
+    .top-wrapper h1{
+        font-size: 70px;
+      }
+      
+    .top-wrapper h2{
+        font-size: 35px;
+      }
+    
+    .lesson {
+      width: 100%;
+      padding: 30px;
+    }
+
+     
+
+
+    .header-list{
+      display: none;
+    }
+    .checkbtn {
+      display: block;
+    }
+
+    .checkbtn:hover {
+      color:beige;
+    }
+
+    .message-wrapper p {
+      padding: 20px;
+    }
+
+}
